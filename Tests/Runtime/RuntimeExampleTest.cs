@@ -2,8 +2,9 @@ using UnityEngine;
 using UnityEngine.TestTools;
 using NUnit.Framework;
 using System.Collections;
+using YuQingCasual.Vibration;
 
-namespace Undefined.Vibration.Tests 
+namespace YuQingCasual.Vibration.Tests 
 {
 	
 	class RuntimeExampleTest 
@@ -20,6 +21,7 @@ namespace Undefined.Vibration.Tests
 		[UnityTest]
 		public IEnumerator PlayModeSampleTestWithEnumeratorPasses() 
 		{
+			// Debug.Log(Vibration.AndroidVersion);
 			// Use the Assert class to test conditions.
 			// yield to skip a frame
 			yield return null;

@@ -1,12 +1,14 @@
 {
-    "name": "YuQingCasual.Vibration.RuntimeTests",
+    "name": "YuQingCasual.Vibration.EditorTests",
     "rootNamespace": "",
     "references": [
+        "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "YuQingCasual.Vibration",
-        "UnityEngine.TestRunner"
+        "YuQingCasual.Vibration"
     ],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,

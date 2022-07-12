@@ -11,7 +11,7 @@ using System.Collections;
 using System.Runtime.InteropServices;
 #endif
 
-namespace YuQingGame.Vibration
+namespace YuQingCasual.Vibration
 {
 
     public static class Vibration
