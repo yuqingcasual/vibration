@@ -1,0 +1,9 @@
+{
+	"name": "com.yuqinggame.vibration",
+	"displayName":"Vibration",
+	"version": "0.1.0",
+	"unity": "2021.3",
+	"description": "just vibration",
+	"dependencies": {
+	}
+}
